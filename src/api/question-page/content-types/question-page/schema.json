@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "question_pages",
+  "info": {
+    "singularName": "question-page",
+    "pluralName": "question-pages",
+    "displayName": "Question Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
